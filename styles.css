@@ -173,7 +173,7 @@ button {
 
 .shop {
   position: absolute;
-  bottom: 9rem;
+  bottom: 8rem;
   left: 17rem;
   text-decoration: none;
   display: inline-block;
@@ -269,12 +269,12 @@ button:hover .shop-text {
   .section3 img {
     width: 40rem;
   }
-
-  .shop {
-    bottom: 12rem;
-  }
   .right-arrow {
     left: 7rem;
+  }
+
+  .shop {
+    bottom: 6rem;
   }
 }
 
@@ -284,10 +284,9 @@ button:hover .shop-text {
   }
 
   .shop {
-    bottom: 5rem;
+    bottom: 7rem;
   }
 }
-
 @media (max-width: 80em) {
   .section5 img {
     width: 35rem;
@@ -297,7 +296,7 @@ button:hover .shop-text {
     width: 35rem;
   }
   .shop {
-    bottom: 2rem;
+    bottom: 9rem;
   }
 }
 @media (max-width: 76em) {
@@ -313,6 +312,9 @@ button:hover .shop-text {
   }
   .right-arrow {
     left: 8.1rem;
+  }
+  .section--2 {
+    padding: 2rem 0.5rem;
   }
 }
 
