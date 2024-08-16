@@ -173,7 +173,7 @@ button {
 
 .shop {
   position: absolute;
-  bottom: 15rem;
+  bottom: 9rem;
   left: 17rem;
   text-decoration: none;
   display: inline-block;
@@ -279,10 +279,15 @@ button:hover .shop-text {
 }
 
 @media (max-width: 85em) {
+  .section--2 {
+    padding: 5rem 1rem;
+  }
+
   .shop {
     bottom: 5rem;
   }
 }
+
 @media (max-width: 80em) {
   .section5 img {
     width: 35rem;
